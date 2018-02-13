@@ -1,0 +1,19 @@
+<div class="container">
+  <div>
+    <p>Your Result´s are in:</p>
+    <h1><%= @result %>!</h1>
+  </div>
+
+  <div class="letter_container">
+    <% @letters.chars.each do |letter| %>
+      <h1 class="box"><%=letter%></h1>
+     <% end %>
+  </div>
+
+   <div>
+    <p>Your asnwer was:</p>
+    <h1><%= @answer %></h1>
+  </div>
+
+
+</div>
